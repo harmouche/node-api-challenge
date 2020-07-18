@@ -39,14 +39,29 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
 - [ ] Mention two parts of Express that you learned about this week.
+1-Express router is a middleware routing system
+2-Route methodes derived from one of the HTTP methods, and are attached to an instance of the express class.
 
 - [ ] Describe Middleware?
+Middleware functions are functions that have access to the request object (req), the response object (res), and the next middleware function in the application’s request-response cycle. The next middleware function is commonly denoted by a variable named next.
+
+Middleware functions can perform the following tasks:
+
+Execute any code.
+Make changes to the request and the response objects.
+End the request-response cycle.
+Call the next middleware function in the stack.
+
 
 - [ ] Describe a Resource?
 
+A "resource" is simply an object, which defines one of more of the supported "actions" 
+
 - [ ] What can the API return to help clients know if a request was successful?
+a status code and a json message
 
 - [ ] How can we partition our application into sub-applications?
+by using different express routes and sub-routes
 
 ## Minimum Viable Product
 
